@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Head from 'next/head';
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
@@ -20,6 +21,9 @@ export default function Home() {
         ea quibusdam assumenda officiis obcaecati itaque voluptates iste nam
         accusamus? Accusantium, amet.
       </p>
+      <Link href="/list">
+        <a>See Listing</a>
+      </Link>
       <Footer />
     </div>
   );
