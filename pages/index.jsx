@@ -1,13 +1,10 @@
 import Link from 'next/link';
 import Head from 'next/head';
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
     <div>
-      <Navbar />
       <h1>Hello World</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil iusto
@@ -24,7 +21,6 @@ export default function Home() {
       <Link href="/list">
         <a>See Listing</a>
       </Link>
-      <Footer />
     </div>
   );
 }
