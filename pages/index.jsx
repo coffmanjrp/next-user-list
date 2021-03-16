@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next List | Home</title>
+        <title>Next User List | Home</title>
         <meta name="keywords" content="next.js, List, home" />
       </Head>
       <div>
@@ -24,7 +24,7 @@ export default function Home() {
           iste nam accusamus? Accusantium, amet.
         </p>
         <Link href="/list">
-          <a className={styles.btn}>See Listing</a>
+          <a className={styles.btn}>See User List</a>
         </Link>
       </div>
     </>

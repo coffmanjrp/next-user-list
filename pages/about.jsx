@@ -5,7 +5,7 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Next List | About</title>
+        <title>Next User List | About</title>
         <meta name="keywords" content="next.js, List, about" />
       </Head>
       <div>

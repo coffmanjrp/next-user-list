@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
 const Index = ({ users }) => {
   return (
     <div>
-      <h1>List</h1>
+      <h1>User List</h1>
       {users &&
         users.map((user) => (
           <Link href={`/list/${user.id}`} key={user.id}>
