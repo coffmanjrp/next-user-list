@@ -6,8 +6,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Next User List | Home</title>
         <meta name="keywords" content="next.js, List, home" />
+        <meta name="description" content="Next.js List" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Next User List | Home</title>
       </Head>
       <div>
         <h1 className={styles.title}>Hello World</h1>

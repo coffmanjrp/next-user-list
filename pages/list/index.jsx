@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import styles from '../../styles/List.module.css';
 
@@ -15,6 +16,12 @@ export const getStaticProps = async () => {
 const Index = ({ users }) => {
   return (
     <div>
+      <Head>
+        <meta name="keywords" content="next.js, List, home" />
+        <meta name="description" content="Next.js List" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Next User List | User List</title>
+      </Head>
       <h1>User List</h1>
       {users &&
         users.map((user) => (

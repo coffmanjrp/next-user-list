@@ -5,8 +5,10 @@ const About = () => {
   return (
     <>
       <Head>
-        <title>Next User List | About</title>
         <meta name="keywords" content="next.js, List, about" />
+        <meta name="description" content="Next.js List" />
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Next User List | About</title>
       </Head>
       <div>
         <h1 className={styles.title}>About</h1>
